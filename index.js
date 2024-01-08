@@ -8,11 +8,12 @@ saturdayFun();
 function mondayWork(work = "go to the office") {
     return `This Monday, I will ${work}.`;
 }
+mondayWork();
 
 function wrapAdjective(star = "*") {
     return function (moon = "special") {
-        return `You are ${star}${moon}${star}!`
-    }
+        return `You are ${star}${moon}${star}!`;
+    };
 }
 
 wrapAdjective()()
